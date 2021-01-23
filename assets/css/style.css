@@ -1,0 +1,200 @@
+/* Style Settings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    background: url('../images/bg.jpg');
+    background-attachment:fixed;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#userPhoto {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20%;
+}
+
+#userName {
+    color: #584949;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 var(--accentColor), 1px 1px 0 var(--accentColor), 2px 2px 0 var(--accentColor);
+}
+
+#userName h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    margin: 0 auto;
+}
+
+#userName p {
+    font-weight: 300;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+i.fa {
+    margin-right: 0.3rem;
+}
+
+#links {
+    max-width: 500px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.link {
+    display: block;
+    background-color: rgba(66, 110, 255, 0.2);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border-radius: 10px;
+
+}
+
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #000000;
+    border: none;
+}
+.footer {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.footer a {
+    text-decoration:none;
+}
+
+:root {
+   
+    --bgColor: beige;
+    --accentColor: #ffffff;
+    --font: 'Modak', cursive;
+}
+
+element.style {
+    line-height: 32px;
+    filter: grayscale(100%);
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.circulo {
+    background: rgb(255, 253, 253);
+    border-radius: 52px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.footer a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.board-text p {
+    font-family: Almarai regular !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+p {
+    display: block;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.footer-section {
+    color:#000;
+    font-size:13px;
+    background-color: #f7f7f7;
+    text-align:center;
+    border-top:5px solid #2f2d33;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+    .footer-section a, .footer-section a:hover {
+        color:#000000;
+    }
+
+    .w3-bar{width:100%;overflow:hidden}
+    .w3-center .w3-bar{display:inline-block;width:auto}
+    .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+    .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
+    .w3-bar .w3-button{white-space:normal}
+    .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+    .w3-bar-block.w3-center .w3-bar-item{text-align:center}
+    .w3-block{display:block;width:100%}
+    .w3-container,.w3-panel{padding:0.01em 16px}
+    .w3-panel{margin-top:10px;margin-bottom:10px}
+    .w3-button:hover{color:#000!important;background-color:#ccc!important}
+    .w3-right{float:right!important}
+    .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+    .w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+    .w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+    .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+    .formSidebar {
+        height:100%;
+        background-color:#fff;
+        position:fixed!important;
+        z-index:1;overflow:auto
+    }
+
+  @media screen and (max-width: 720px) {
+    #rightMenu {
+        display:none;
+    }
+
+    #main-isi {
+        margin-right: 0%;
+        width: 100%;
+    }
+
+}
+
+  @media print {    
+      .no-print, .no-print *
+      {
+          display: none !important;
+      }
+  }
